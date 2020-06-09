@@ -1,0 +1,20 @@
+name: python-notebook
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.7
+    - numpy
+    - scipy
+    - pandas
+    - xlrd # to read .xlsx files from Pandas
+    - matplotlib
+    - jupyterlab
+    - ipywidgets
+    - biopython
+    - seaborn
+    - scikit-bio
