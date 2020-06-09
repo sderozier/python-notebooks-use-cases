@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM904v1
+#!genome-build-accession NCBI_Assembly:GCF_000009045.1
+##sequence-region NC_000964.3 1 4215606
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=224308
+NC_000964.3	RefSeq	region	1	4215606	.	+	.	ID=id0;Dbxref=taxon:224308;Is_circular=true;gbkey=Src;genome=genomic;mol_type=genomic DNA;strain=168;sub-species=subtilis
+NC_000964.3	RefSeq	gene	410	1750	.	+	.	ID=gene0;Name=dnaA;gbkey=Gene;gene=dnaA;gene_biotype=protein_coding;locus_tag=BSU_00010;old_locus_tag=BSU00010
+NC_000964.3	RefSeq	CDS	410	1750	.	+	0	ID=cds0;Parent=gene0;Dbxref=EnsemblGenomes-Gn:BSU00010,EnsemblGenomes-Tr:CAB11777,GOA:P05648,InterPro:IPR001957,InterPro:IPR003593,InterPro:IPR010921,InterPro:IPR013159,InterPro:IPR013317,InterPro:IPR018312,InterPro:IPR020591,InterPro:IPR024633,InterPro:IPR027417,PDB:4TPS,SubtiList:BG10065,UniProtKB/Swiss-Prot:P05648,Genbank:NP_387882.1;Name=NP_387882.1;Note=Evidence 1a: Function from experimental evidences in the studied strain%3B PubMedId: 2167836%2C 2846289%2C 12682299%2C 16120674%2C 1779750%2C 28166228%3B Product type f : factor;experiment=publication(s) with functional evidences%2C PMID:2167836%2C 2846289%2C 12682299%2C 16120674%2C 1779750%2C 28166228;gbkey=CDS;gene=dnaA;product=chromosomal replication initiator informational ATPase;protein_id=NP_387882.1;transl_table=11
