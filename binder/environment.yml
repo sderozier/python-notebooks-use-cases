@@ -4,7 +4,6 @@ name: python-notebooks-use-cases
 # conda-forge has highest prioriy
 channels:
     - defaults
-    - biocore
     - bioconda
     - conda-forge
 dependencies:
@@ -18,6 +17,8 @@ dependencies:
     - ipywidgets
     - biopython
     - seaborn
-    - scikit-bio
     - bcbio-gff
     - nodejs
+    - pip
+    - pip:
+        - scikit-bio
