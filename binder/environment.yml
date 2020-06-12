@@ -15,5 +15,7 @@ dependencies:
     - ipywidgets
     - biopython
     - seaborn
-    - bcbio-gff
     - nodejs
+    - pip
+    - pip:
+        - scikit-bio
