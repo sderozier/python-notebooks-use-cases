@@ -4,10 +4,9 @@ Vous pouvez manipuler les notebooks proposés en ligne avec Binder :
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sderozier/python-notebooks-use-cases/master?urlpath=lab)
 
-Le répertoire `notebooks`contient 3 *notebooks* [Jupyter](https://jupyter.org/) :
+Le répertoire `notebooks`contient 2 *notebooks* [Jupyter](https://jupyter.org/) :
 
 * `comptage_rnaseq.ipynb` : exploration de données de comptage RNA-Seq
-* `arbre_phylogenetique.ipynb` : création d'un arbre phylogénétique
 * `formats.ipynb` : formats de fichiers (FASTA, FastQ, GenBank, GFF)
 
 ## Manipuler les notebooks localement (sur votre machine)
@@ -35,8 +34,16 @@ Le répertoire `notebooks`contient 3 *notebooks* [Jupyter](https://jupyter.org/)
     ```
 
 6. Chargez les extensions Jupyter Lab :
+
+    - pour les utilisateurs de Linux, WSL, Mac :
     ```
     bash binder/postBuild
+    ```
+    
+    - pour les utilisateurs de PowerShell :
+    ```
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    jupyter labextension install @jupyterlab/toc
     ```
 
 7. Lancez Jupyter Lab :
