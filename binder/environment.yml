@@ -18,4 +18,4 @@ dependencies:
     - nodejs
     - pip
     - pip:
-        - scikit-bio
+        - bcbio-gff
